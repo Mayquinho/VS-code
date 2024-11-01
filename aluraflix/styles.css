@@ -1,20 +1,33 @@
 body {
     color: black;
     background: orangered;
-    margin: 0px;
+    margin: 1px;
+    font-family: "Merriweather", serif;
 }
 
 header {
     border-bottom: solid 2px rgb(132, 0, 0);
-    padding: 20px;
+    padding: 32px;
     font-size: 30px;
     color: rgb(218, 165, 32);
 }
 
-section{
+section {
     background: rgb(255, 0, 0);
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
     justify-content: center
+}
+
+.chamada-texto {
+    margin-right:10%;
+}
+
+h1 { 
+    font-size:28px;
+}
+
+P{
+    font-size:20px;
 }
