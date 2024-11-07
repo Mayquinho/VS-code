@@ -1,0 +1,53 @@
+body {
+    color: black;
+    background: orangered;
+    margin: 1px;
+    font-family: "Merriweather", serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(132, 0, 0);
+    padding: 32px;
+    font-size: 30px;
+    color: rgb(218, 165, 32);
+}
+
+.chamada {
+    background: rgb(255, 0, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center
+}
+
+.chamada-texto {
+    margin-right:10%;
+}
+
+h1 { 
+    font-size:28px;
+}
+
+P{
+    font-size:20px;
+}
+img {
+    height: 200px
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 13px
+}
+
+.categoria {
+    padding-left: 35spx;
+    padding-right: 35px;
+}
+
+h2 {
+padding: 30px;
+
+
+}
