@@ -1,12 +1,13 @@
 body {
-    color: black;
+    color: white;
     background: orangered;
     margin: 1px;
     font-family: "Merriweather", serif;
+    margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(132, 0, 0);
+    border-bottom: solid 2px rgb(218, 165, 32);
     padding: 32px;
     font-size: 30px;
     color: rgb(218, 165, 32);
@@ -26,13 +27,12 @@ header {
 
 h1 { 
     font-size:28px;
+    margin-left: 20px;
 }
 
 P{
     font-size:20px;
-}
-img {
-    height: 200px
+    margin-left: 20px;
 }
 
 .categoria-videos {
@@ -41,13 +41,28 @@ img {
     gap: 13px
 }
 
-.categoria {
-    padding-left: 35spx;
+.categoria { 
+    padding-left: 35px;
     padding-right: 35px;
+    
+    border-top: solid 2px rgb(218, 165, 32);;
+}
+
+.categoria-videos img {
+    opacity: 0,5;
+    height: 220px;
+}
+
+.categoria-videos img:hover {
+    opacity: 0.5;
+    border: 3px solid yellow;
+}
+
+.categoria h2 {
+    color: rgb(218, 165, 32);
 }
 
 h2 {
-padding: 30px;
-
-
+    font-size: 30px;
+    padding-left: 20px
 }
